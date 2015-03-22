@@ -1,28 +1,30 @@
 #ifndef EMATH_H_INCLUDED
 #define EMATH_H_INCLUDED
 
-namespace EMath{
+namespace EMath
+{
 
-class vec2{
-
-public:
-vec2(float, float);
-
-virtual ~vec2(){}
+class vec2
+{
 
 public:
+    vec2(float, float);
 
-float x, y;
+    virtual ~vec2() {}
 
 public:
 
-vec2 operator+(vec2);
+    float x, y;
 
-vec2 operator-(vec2);
+public:
 
-vec2 operator/(vec2);
+    vec2 operator+(vec2);
 
-vec2 operator*(vec2);
+    vec2 operator-(vec2);
+
+    vec2 operator/(vec2);
+
+    vec2 operator*(vec2);
 
 };
 

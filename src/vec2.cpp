@@ -1,23 +1,27 @@
 #include "../include/vec2.h"
 
 
-namespace EMath{
+namespace EMath
+{
 
-vec2::vec2(float ix, float iy){
+vec2::vec2(float ix, float iy)
+{
     x = ix;
     y = iy;
 }
 
-vec2 vec2::operator+(vec2 vector2){
+vec2 vec2::operator+(vec2 vector2)
+{
 
 
-return vec2(x + vector2.x, y + vector2.y);
+    return vec2(x + vector2.x, y + vector2.y);
 }
 
-vec2 vec2::operator-(vec2 vector2){
+vec2 vec2::operator-(vec2 vector2)
+{
 
 
-return vec2(x - vector2.x, y - vector2.y);
+    return vec2(x - vector2.x, y - vector2.y);
 }
 
 vec2 vec2::operator/(vec2 vector2)

@@ -3,19 +3,21 @@
 
 #include "vec2.h"
 
-namespace EMath{
+namespace EMath
+{
 
-class vec3{
+class vec3
+{
 
 public:
 
-     vec3(float, float, float);
+    vec3(float, float, float);
 
-     vec3(vec2, float);
+    vec3(vec2, float);
 
-     vec3(float, vec2);
+    vec3(float, vec2);
 
-    virtual ~vec3(){}
+    virtual ~vec3() {}
 
 public:
 
