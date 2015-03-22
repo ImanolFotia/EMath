@@ -7,8 +7,8 @@ Simply include EMath.h in your file and link to -lEmath located in the lib direc
 
 EMath is a static library.
 
-EMath is a plain C++ library so it can be compiled on a variety of Operating Systems.
+EMath is a pure C++ library so it can be compiled on a variety of Operating Systems.
 
-Currently precompiled binaries are only available for the GCC or MINGW32 compiler, but I will provide more options in the future. i.e. .lib Visual Studio libraries.
+Currently precompiled binaries are only available for the GCC or MINGW32 compiler, but I will provide more options in the future.(.lib Visual Studio libraries, etc.)
 
 Runs on Linux, Microsoft Windows and Mac OS X.
