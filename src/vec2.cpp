@@ -5,7 +5,7 @@ namespace EMath{
 
 vec2::vec2(float ix, float iy){
     x = ix;
-    y = ix;
+    y = iy;
 }
 
 vec2 vec2::operator+(vec2 vector2){
