@@ -1,4 +1,5 @@
 #include "../include/vec3.h"
+#include "../include/functions.h"
 
 namespace EMath{
 
@@ -7,6 +8,11 @@ vec3::vec3(float xi, float yi, float zi){
 x = xi;
 y = yi;
 z = zi;
+
+length = sqrt((x * x) + ( y * y ) + ( z * z ));
+
+if(length < 0)
+    length *= -1;
 
 }
 
@@ -35,4 +41,48 @@ vec3 vec3::operator-(vec3 vector3){
 return vec3(x - vector3.x, y - vector3.y, z - vector3.z);
 }
 
+vec3 vec3::operator/(vec3 vector3){
+
+return vec3(x / vector3.x, y / vector3.y, z / vector3.z);
+}
+
+vec3 vec3::operator*(vec3 vector3){
+
+return vec3(x * vector3.x, y * vector3.y, z * vector3.z);
+}
+
+void vec3::normalize(){
+
+x = x/length;
+y = y/length;
+z = z/length;
+}
+
+vec3 vec3::normalize(vec3 vector3){
+
+vector3.x = vector3.x/vector3.length;
+vector3.y = vector3.y/vector3.length;
+vector3.z = vector3.z/vector3.length;
+
+return vec3(x, y, z);
+}
+
+void vec3::getlength(){
+
+length = sqrt((x * x) + ( y * y ) + ( z * z ));
+
+if(length < 0)
+    length *= -1;
+
+}
+
+double vec3::getlength(vec3 vector3){
+
+length = sqrt((vector3.x * vector3.x) + ( vector3.y * vector3.y ) + ( vector3.z * vector3.z ));
+
+if(length < 0)
+    length *= -1;
+
+return length;
+}
 }

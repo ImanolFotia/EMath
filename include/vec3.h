@@ -1,5 +1,6 @@
 #ifndef VEC3_H_INCLUDED
 #define VEC3_H_INCLUDED
+
 #include "vec2.h"
 
 namespace EMath{
@@ -20,6 +21,8 @@ public:
 
     float x, y, z;
 
+    double length;
+
 public:
 
     vec3 operator+(vec3);
@@ -29,6 +32,15 @@ public:
     vec3 operator/(vec3);
 
     vec3 operator*(vec3);
+
+    void normalize();
+
+    vec3 normalize(vec3);
+
+private:
+    void getlength();
+
+    double getlength(vec3);
 };
 
 }
