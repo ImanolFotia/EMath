@@ -6,3 +6,12 @@
 
 1427000743 /home/psycho/Documents/EMath/EMath/include/vec2.h
 
+1427008410 source:/home/psycho/Documents/EMath/EMath/src/vec3.cpp
+	"../include/vec3.h"
+	"../include/functions.h"
+
+1427008424 /home/psycho/Documents/EMath/EMath/include/vec3.h
+	"vec2.h"
+
+1427007448 /home/psycho/Documents/EMath/EMath/include/functions.h
+

@@ -33,12 +33,14 @@ public:
 
     vec3 operator*(vec3);
 
+    vec3 operator=(vec3);
+
     void normalize();
 
     vec3 normalize(vec3);
 
 private:
-    void getlength();
+    void setlength();
 
     double getlength(vec3);
 };
