@@ -1,6 +1,8 @@
 #ifndef EMATH_H_INCLUDED
 #define EMATH_H_INCLUDED
 
+namespace EMath{
+
 class vec2{
 
 vec2(float, float);
@@ -22,5 +24,5 @@ vec2 operator/(vec2);
 vec2 operator*(vec2);
 
 };
-
+}
 #endif // EMATH_H_INCLUDED
