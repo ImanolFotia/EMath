@@ -13,4 +13,8 @@ Currently precompiled binaries are only available for the GCC or MINGW32 compile
 
 Runs on Linux, Microsoft Windows and Mac OS X.
 
+The library is not yet finished, so feel free to colaborate if you are interested.
+
+It is intended to be used in 3D and 2D applications, with API independence in mind.
+
 Copyright Imanol Fotia 2015.
