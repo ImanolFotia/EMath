@@ -3,7 +3,7 @@ Open Source Math Library used by the Epsilon Engine, oriented to game programmer
 
 Instructions:
 
-Simply include <EMath.h> in your file and link to -lEmath located in the lib directory.
+Simply include EMath.h in your file and link to -lEmath located in the lib directory.
 
 EMath is a static library.
 
