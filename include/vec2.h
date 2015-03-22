@@ -5,6 +5,7 @@ namespace EMath{
 
 class vec2{
 
+public:
 vec2(float, float);
 
 virtual ~vec2(){}
@@ -24,5 +25,6 @@ vec2 operator/(vec2);
 vec2 operator*(vec2);
 
 };
+
 }
 #endif // EMATH_H_INCLUDED

@@ -32,6 +32,5 @@ vec2 vec2::operator*(vec2 vector2)
 
     return vec2(x * vector2.x, y * vector2.y);
 }
+
 }
-
-

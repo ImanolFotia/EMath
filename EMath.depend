@@ -1,3 +1,8 @@
 # depslib dependency file v1.0
 1426993094 source:/home/psycho/Documents/EMath/EMath/src/main.c
 
+1426997585 source:/home/psycho/Documents/EMath/EMath/src/vec2.cpp
+	"../include/vec2.h"
+
+1426997695 /home/psycho/Documents/EMath/EMath/include/vec2.h
+
