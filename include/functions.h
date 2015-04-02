@@ -11,7 +11,7 @@ float Invsqrt(float x)
         int i;
     } u;
     u.x = x;
-    u.i = 0x5f3759df - (u.i >> 1); // Seriously???
+    u.i = 0x5f3759df - (u.i >> 1);
     u.x = u.x * (1.5f - xhalf * u.x * u.x);
     return u.x;
 }
@@ -26,7 +26,7 @@ float sqrt(float x)
         int i;
     } u;
     u.x = x;
-    u.i = 0x5f3759df - (u.i >> 1); //???
+    u.i = 0x5f3759df - (u.i >> 1);
     u.x = u.x * (1.5f - xhalf * u.x * u.x);
     return  1/u.x;
 }
